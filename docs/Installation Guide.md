@@ -187,6 +187,8 @@ We will now create a database called `webapp`:
 
     createdb -U myuser webapp;
 
+You will be prompted to enter a password, which is `mypassword`
+
 We can now login to the postgres client for the `webapp` database:
 
     psql -U myuser -d webapp -h localhost -W
